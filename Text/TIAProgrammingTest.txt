@@ -1,0 +1,9 @@
+Indicator Type, Indicator
+ 
+hash, 322a32accb083edb65f5c48aefae4125
+hash,5b4250a6bb4c6915ce962d489ee912d6
+Hash,	9fe3cb2b7313dc79bb477bc8fde184a7
+domain,teaser.ru 
+domain, windowsupdate.com
+domain, microsoftdownload.com
+domain,		adobe-update.com
