@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TrackerLibary
+namespace TrackerLibary.Models
 {
     /// <summary>
     /// Represents what the prize is for the given place.
@@ -35,5 +35,27 @@ namespace TrackerLibary
         /// of 1 ( so 0.5 for 50%).
         /// </summary>
         public double PrizePercentage { get; set; }
+
+        public PrizeModel()
+        {
+
+        }
+
+        public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePrecentage)
+        {
+            PlaceName = placeName;
+
+            int placeNumberValue = 0;
+            int.TryParse(placeNumber, out placeNumberValue);
+            PlaceNumber = placeNumberValue;
+
+            decimal prizeAmountValue = 0;
+            decimal.TryParse(prizeAmount, out prizeAmountValue);
+            PrizeAmount = prizeAmountValue;
+
+            double prizePrecentageValue = 0;
+            double.TryParse(prizePrecentage, out prizePrecentageValue);
+            PrizePercentage = prizePrecentageValue;
+        }
     }
 }

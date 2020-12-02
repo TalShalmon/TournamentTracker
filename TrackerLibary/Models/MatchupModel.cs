@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TrackerLibary
+namespace TrackerLibary.Models
 {
     /// <summary>
     /// Represent one match in the tournament
     /// </summary>
     public class MatchupModel
     {
+        public int Id { get; set; }
         /// <summary>
         /// The set of teams that where involved in this match
         /// </summary>

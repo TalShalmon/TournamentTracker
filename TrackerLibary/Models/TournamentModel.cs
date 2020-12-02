@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TrackerLibary
+namespace TrackerLibary.Models
 {
     /// <summary>
     /// Represents one tournament, with all of the rounds, matchups, prizes and outcomes.
     /// </summary>
     public class TournamentModel
     {
+        public int Id { get; set; }
         /// <summary>
         /// The name given to this tournament.
         /// </summary>
-        public int TournamentName { get; set; }
+        public string TournamentName { get; set; }
 
         /// <summary>
         /// The amount of money each team needs to put up to enter.

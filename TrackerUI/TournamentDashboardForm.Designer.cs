@@ -43,7 +43,7 @@
             this.tournamentDashboardLabel.Location = new System.Drawing.Point(181, 23);
             this.tournamentDashboardLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.tournamentDashboardLabel.Name = "tournamentDashboardLabel";
-            this.tournamentDashboardLabel.Size = new System.Drawing.Size(258, 25);
+            this.tournamentDashboardLabel.Size = new System.Drawing.Size(714, 72);
             this.tournamentDashboardLabel.TabIndex = 11;
             this.tournamentDashboardLabel.Text = "Tournament Dashboard";
             // 
@@ -51,10 +51,10 @@
             // 
             this.loadExistingTournamentValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadExistingTournamentValue.FormattingEnabled = true;
-            this.loadExistingTournamentValue.Location = new System.Drawing.Point(209, 96);
+            this.loadExistingTournamentValue.Location = new System.Drawing.Point(284, 261);
             this.loadExistingTournamentValue.Margin = new System.Windows.Forms.Padding(5);
             this.loadExistingTournamentValue.Name = "loadExistingTournamentValue";
-            this.loadExistingTournamentValue.Size = new System.Drawing.Size(190, 33);
+            this.loadExistingTournamentValue.Size = new System.Drawing.Size(548, 80);
             this.loadExistingTournamentValue.TabIndex = 18;
             // 
             // loadExistingTournamentLabel
@@ -62,10 +62,10 @@
             this.loadExistingTournamentLabel.AutoSize = true;
             this.loadExistingTournamentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadExistingTournamentLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.loadExistingTournamentLabel.Location = new System.Drawing.Point(176, 66);
+            this.loadExistingTournamentLabel.Location = new System.Drawing.Point(181, 145);
             this.loadExistingTournamentLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.loadExistingTournamentLabel.Name = "loadExistingTournamentLabel";
-            this.loadExistingTournamentLabel.Size = new System.Drawing.Size(263, 25);
+            this.loadExistingTournamentLabel.Size = new System.Drawing.Size(765, 72);
             this.loadExistingTournamentLabel.TabIndex = 17;
             this.loadExistingTournamentLabel.Text = "Load Existing Tournament";
             // 
@@ -77,9 +77,9 @@
             this.loadTournamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loadTournamentButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadTournamentButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.loadTournamentButton.Location = new System.Drawing.Point(209, 146);
+            this.loadTournamentButton.Location = new System.Drawing.Point(284, 368);
             this.loadTournamentButton.Name = "loadTournamentButton";
-            this.loadTournamentButton.Size = new System.Drawing.Size(213, 36);
+            this.loadTournamentButton.Size = new System.Drawing.Size(548, 94);
             this.loadTournamentButton.TabIndex = 28;
             this.loadTournamentButton.Text = "Load Tournament";
             this.loadTournamentButton.UseVisualStyleBackColor = true;
@@ -92,26 +92,26 @@
             this.createTournamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.createTournamentButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createTournamentButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.createTournamentButton.Location = new System.Drawing.Point(186, 201);
+            this.createTournamentButton.Location = new System.Drawing.Point(284, 517);
             this.createTournamentButton.Name = "createTournamentButton";
-            this.createTournamentButton.Size = new System.Drawing.Size(254, 72);
+            this.createTournamentButton.Size = new System.Drawing.Size(548, 128);
             this.createTournamentButton.TabIndex = 29;
             this.createTournamentButton.Text = "Create Tournament";
             this.createTournamentButton.UseVisualStyleBackColor = true;
             // 
             // TournamentDashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(32F, 76F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(616, 352);
+            this.ClientSize = new System.Drawing.Size(1180, 772);
             this.Controls.Add(this.createTournamentButton);
             this.Controls.Add(this.loadTournamentButton);
             this.Controls.Add(this.loadExistingTournamentValue);
             this.Controls.Add(this.loadExistingTournamentLabel);
             this.Controls.Add(this.tournamentDashboardLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "TournamentDashboardForm";
             this.Text = "Tournament Dashboard";
             this.ResumeLayout(false);
