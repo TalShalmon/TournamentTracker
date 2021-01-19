@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using TrackerLibary;
 using TrackerLibary.Models;
+using TrackerLibary.DataAccess;
+
 
 namespace TrackerUI
 {
@@ -122,6 +124,7 @@ namespace TrackerUI
             tm.EnteredTeams = selectedTeams;
 
             // TODO - Wire our Matchups
+            TournamentLogic.CreateRounds(tm);
 
             //Create Tournament entry
             //Create all of the prizes entries
